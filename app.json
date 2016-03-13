@@ -8,10 +8,5 @@
     "SALESFORCE_PASSWORD": "",
     "COMPANY_NAME": "Cirrus",
     "COMPANY_LOGO": "/files/cirrus-logo.png"
-  },
-  "buildpacks": [
-    {
-      "url": "urn:buildpack:heroku/java"
-    }
-  ]
+  }
 }
