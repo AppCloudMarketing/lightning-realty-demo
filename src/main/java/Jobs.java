@@ -8,7 +8,7 @@ public class Jobs {
     public static ArrayList<Job> GetJobs() {
         ArrayList<Job> jobs = new ArrayList<Job>();
         Connection connection = null;
-        
+
 
         try {
             connection = getDBConnection();
