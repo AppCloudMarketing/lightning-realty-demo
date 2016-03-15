@@ -9,6 +9,8 @@ public class Job {
     public void setName(String name) {
         this.name = name;
     }
+    
+    
 
     public String getDescription() {
         if (description == null) {
