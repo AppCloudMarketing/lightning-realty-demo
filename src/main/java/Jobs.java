@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import com.heroku.sdk.jdbc.DatabaseUrl;
 
 public class Jobs {
+    
 
     public static ArrayList<Job> GetJobs() {
         ArrayList<Job> jobs = new ArrayList<Job>();
