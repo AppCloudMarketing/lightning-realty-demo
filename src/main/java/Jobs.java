@@ -14,6 +14,7 @@ public class Jobs {
             Statement stmt = connection.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT * FROM salesforce.hr_job_requisition__c  WHERE hr_status__c = 'Open - Approved'");  
 
+
             while (rs.next()) {
                 Job job = convertResultSetToJob(rs);
                 jobs.add(job);
