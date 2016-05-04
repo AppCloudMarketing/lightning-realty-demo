@@ -9,7 +9,6 @@ public class Jobs {
         ArrayList<Job> jobs = new ArrayList<Job>();
         Connection connection = null;
 
-
         try {
             connection = getDBConnection();
             Statement stmt = connection.createStatement();
