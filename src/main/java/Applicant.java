@@ -40,7 +40,6 @@ public class Applicant {
         this.resume = resume;
     }
 
-
     private String id;
     private String name;
     private String email;
