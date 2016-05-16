@@ -10,8 +10,6 @@ public class Job {
         this.name = name;
     }
     
-    
-
     public String getDescription() {
         if (description == null) {
             return "";
