@@ -4,8 +4,8 @@
   "image": "heroku/java",
   "addons": [ "heroku-postgresql", "herokuconnect" ],
   "env": {
-    "SALESFORCE_USERNAME": "",
-    "SALESFORCE_PASSWORD": "",
+    "SALESFORCE_USERNAME": "username@salesforce.com",
+    "SALESFORCE_PASSWORD": "password",
     "COMPANY_NAME": "Cirrus",
     "COMPANY_LOGO": "/files/cirrus-logo.png"
   }
